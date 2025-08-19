@@ -1,0 +1,33 @@
+//intializing the class
+//accessmodifier class classname 
+public class myFirstclass
+{
+    
+   //Datatype varaible = value ; 
+    Integer accNumber1 = 5 ;
+    Integer accNumber2 = 5 ;
+    
+    // intializing the method 
+    //Accessspecifier   void  function name(or)method name 
+    
+    public void addNumber ()
+    {
+        //datatype variable = valve ;
+        Integer c = accNumber1 + accNumber2 ;
+        System.debug(c);
+    }
+       
+}
+
+
+
+
+DEBUG : 
+// to store the output  
+//CLASSNAME VARAIBLE = new CLASSNAME ();
+myFirstclass output = new myFirstclass();
+
+//variable.methodname();
+output.addNumber();
+
+output : //10
