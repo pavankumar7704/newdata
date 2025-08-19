@@ -13,7 +13,7 @@ public class myFirstclass
     public void addNumber ()
     {
         //datatype variable = valve ;
-        Integer c = accNumr1 + accNr2 ;
+        Integer c = accNumber1 + accNumber2 ;
         System.debug(c);
     }
        
